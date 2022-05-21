@@ -7,4 +7,7 @@ package com.yun.rpc.core.balancer;
  * @date 2022/5/21 14:54
  */
 public class Test {
+    public static void main(String[] args) {
+        System.out.println("您好\n");
+    }
 }
