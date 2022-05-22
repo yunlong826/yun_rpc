@@ -1,5 +1,7 @@
 package com.yun.rpc.core.protocol;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
 /**
@@ -8,6 +10,7 @@ import java.io.Serializable;
  * @description: TODO 消息协议
  * @date 2022/5/21 19:08
  */
+@Data
 public class MessageProtocol<T> implements Serializable {
     /*
      *
